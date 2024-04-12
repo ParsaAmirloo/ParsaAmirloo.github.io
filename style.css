@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/7130475/pexels-photo-7130475.jpeg?cs=srgb&dl=pexels-codioful-%28formerly-gradienta%29-7130475.jpg&fm=jpg");
+    /* Make sure to include 'url()' around the image URL */
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+.coin {
+    transition: transform 0.2s ease; /* Add transition for smooth animation */
+    padding: 50px, 50px, 50px, 50px;
+}
+
+.coin.bigger {
+    transform: scale(1.2); /* Make the coin bigger */
+}
